@@ -9,7 +9,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 #获取mysql 的连接
-mysql = MysqlHelper(host='123.206.30.117',port=3306,db='pythonspider',user='root',passwd='111')
+mysql = MysqlHelper(host='123.206.xxx.xxx',port=3306,db='pythonspider',user='root',passwd='111')
 #获取redis 的连接
 rediscli = redis.StrictRedis(host='192.168.0.109', port = 6379, db = 0)
 
