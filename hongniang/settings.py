@@ -26,7 +26,7 @@ ROBOTSTXT_OBEY = True
 #修改为 scrapy-redis
 
 # 指定使用scrapy-redis的调度器
-SCHEDULER = "scrapy_redis.schedulers.Scheduler"
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 # 指定使用scrapy-redis的去重
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 # 默认的 按优先级排序(Scrapy默认)，由sorted set实现的一种非FIFO、LIFO方式。
